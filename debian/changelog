@@ -1,3 +1,19 @@
+mysql-defaults (1.1.0) unstable; urgency=medium
+
+  * Change Debian defaults to MariaDB 10.11 (which no longer
+    has versioned binary package names and thus this change
+    will probably stay as-is for years to come)
+  * Add brackets to paths in overrides to match Lintian v2.115 requirements
+  * Bump Standards-Version to 4.6.1.0, no changes needed
+
+ -- Otto Kekäläinen <otto@debian.org>  Sun, 15 Jan 2023 21:18:37 -0800
+
+mysql-defaults (1.0.8) unstable; urgency=medium
+
+  * Change Debian defaults to MariaDB 10.6 (Closes: #1004229)
+
+ -- Otto Kekäläinen <otto@debian.org>  Mon, 31 Jan 2022 12:19:10 -0800
+
 mysql-defaults (1.0.7) unstable; urgency=medium
 
   * Set Ubuntu defaults to the mysql-8.0 family.
