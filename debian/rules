@@ -13,10 +13,10 @@ default-libmysqlclient-dev	 = libmysqlclient-dev
 default-libmysqld-dev		 = n/a
 export DH_OPTIONS := $(DH_OPTIONS) -Ndefault-libmysqld-dev
 else
-default-mysql-client-core	 = mariadb-client-core-10.5
-default-mysql-client		 = mariadb-client-10.5
-default-mysql-server-core	 = mariadb-server-core-10.5
-default-mysql-server		 = mariadb-server-10.5
+default-mysql-client-core	 = mariadb-client-core
+default-mysql-client		 = mariadb-client
+default-mysql-server-core	 = mariadb-server-core
+default-mysql-server		 = mariadb-server
 default-libmysqlclient-dev	 = libmariadb-dev-compat
 default-libmysqld-dev		 = libmariadbd-dev
 endif
